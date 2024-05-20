@@ -11,4 +11,5 @@ def calculate_circle_area(x: int = 1):
 
 
 print(calculate_circle_area(3))
-print(calculate_circle_area.__doc__)  # 顯示 這是一個計算給予半徑算出圓面積的函式
+# 顯示 這是一個計算給予半徑算出圓面積的函式
+print(calculate_circle_area.__doc__)  
