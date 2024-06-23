@@ -1,8 +1,7 @@
-def function_name(parameter1, parameter2):
+def two_sum(number1, number2):
     # function body
-    res = parameter1 + parameter2
-    return res
+    summation = number1 + number2
+    return summation
 
 
-print(function_name("a", "b"))  # 呼叫該函式
-import math
+print(two_sum(1,2))  # 呼叫該函式

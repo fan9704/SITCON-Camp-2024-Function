@@ -1,5 +1,5 @@
-def calculate_rectangle_area(height: int, weight: int):
-    area = height * weight
+def calculate_rectangle_area(height: int, width: int):
+    area = height * width
     return area
 
 

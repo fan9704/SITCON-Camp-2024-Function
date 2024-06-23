@@ -1,5 +1,5 @@
-def calculate_circle_area(x):
-    area = x * x * 3.14  # 半徑 X 半徑 X 圓周率
+def calculate_circle_area(r):
+    area = r * r * 3.14  # 半徑 X 半徑 X 圓周率
     return area
 
 
