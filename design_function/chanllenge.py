@@ -1,12 +1,9 @@
-def calculate_rectangle_area(height, width):
-    return height * width
+# TODO: 
+# 接收 長 h 寬 w 參數
+# 計算 長方形面積
+# 回傳 面積
+def calc_rect():
+    return 
 
-
-print(calculate_rectangle_area(3, 4))  # 計算長 3 寬 4 的長方形面積
-print(calculate_rectangle_area(6, 8))  # 計算長 6 寬 8 的長方形面積
-
-# 綁定名稱
-calculate_rectangle_area = lambda height,width:height*width
-print(calculate_rectangle_area(3,4)) #12
-# 不綁定名稱
-print((lambda width,height:width*height)(3,4))
+# 顯示 True 代表實作正確喔~
+print(calc_rect(3,4) == 12)# 看看是否 3 X 4 = 12

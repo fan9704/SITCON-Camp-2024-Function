@@ -1,16 +1,10 @@
-# import <模組>
+# TODO Import 三角形/長方形/梯形 計算方法
 
-import triangle
+# 顯示 True 代表正確
 
-triangle.print_triangle(6)  # 印出高度為 6 的三角形
-
-# from <模組> import <function>
-
-from triangle import print_triangle
-
-print_triangle(5)  # 印出高度為 5 的三角形
-
-# from <模組> import <函式> as <別名>
-from triangle import print_triangle as pt
-
-pt(4)  # 印出高度為 4 的三角形
+# 梯形
+print(f"計算梯形: {calc_trapezoid(6,2,4) == 16}")
+# 三角形
+print(f"計算三角形: {calc_triangle(3,4) == 6}")
+# 長方形
+print(f"計算長方形: {calc_rectangle(2,4) == 8}")
